@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         float chieucao =Float.parseFloat(sochieucao.getText().toString());
         float cannang = Float.parseFloat(socannang.getText().toString());
+        chieucao=chieucao/100;
         float ketqua = 0;
         if(view.getId() == R.id.btTinh)
         {
