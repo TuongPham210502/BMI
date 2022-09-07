@@ -31,7 +31,8 @@
         <EditText
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"/>
+            android:layout_marginLeft="20dp"
+            android:id="@+id/cannang"/>
 
 
 
@@ -50,9 +51,10 @@
         <EditText
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp" />
+            android:layout_marginLeft="20dp"
+            android:id="@+id/chieucao"/>
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btTinh"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tính"
@@ -75,9 +77,9 @@
             tools:layout_editor_absoluteY="190dp" />
 
         <TextView
-            android:id="@+id/textView4"
-            android:layout_width="125dp"
-            android:layout_height="39dp"
+            android:id="@+id/ketqua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:textColor="#0A5188"
             android:textSize="30dp"
@@ -85,7 +87,8 @@
             app:layout_constraintHorizontal_bias="0.28"
             app:layout_constraintStart_toEndOf="@+id/textView3"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="190dp" />
+            tools:layout_editor_absoluteY="190dp"
+            />
 
     </LinearLayout>
 
